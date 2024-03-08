@@ -1,0 +1,5 @@
+package br.com.empresa.beans.model;
+
+public class Morador {
+
+}

@@ -1,0 +1,33 @@
+package br.com.empresa.beans.teste;
+
+import javax.swing.JOptionPane;
+
+import br.com.empresa.beans.model.Condominio;
+import br.com.empresa.beans.model.Funcionario;
+import br.com.empresa.beans.model.Morador;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Condominio mostrarAtributo = new Condominio ();
+		
+		String recebeNome = JOptionPane.showInputDialog("Nome:");
+		String recebeSexo = JOptionPane.showInputDialog("Sexo:");
+		int recebeIdade = Integer.parseInt(JOptionPane.showInputDialog("Idade"));
+		String recebeCargo = JOptionPane.showInputDialog("Cargo:");
+		
+		mostrarAtributo.setNome(recebeNome);
+		mostrarAtributo.setSexo(recebeSexo);
+		mostrarAtributo.setIdade(recebeIdade);
+		
+		
+		System.out.println("\n Nome: " + mostrarAtributo.getNome() +
+				"\n Sexo: " + mostrarAtributo.getSexo() + 
+				"\n Idade:: " + mostrarAtributo.getIdade() + 
+			
+
+	}
+
+}

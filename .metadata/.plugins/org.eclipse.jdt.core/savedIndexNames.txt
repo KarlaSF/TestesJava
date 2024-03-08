@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+D:\vini e karla 3ds\provaJava\.metadata\.plugins\org.eclipse.jdt.core
+3438248182.index
+591739634.index
+490256774.index
+3893470473.index
+2299673885.index
+1865797976.index

@@ -1,0 +1,14 @@
+package br.com.primeiroexercicio.teste;
+
+import javax.swing.JOptionPane;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		Mamifero mamifero = Mamifero;
+		
+
+	}
+
+}
